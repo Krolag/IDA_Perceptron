@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 from random import random, seed
 from numpy import array, append, linspace
 
+# Seed for ranomization, so the experiment could be redone
 seed(2)
 
+# Function for randomizing input vectors
 def randVector(n, flag):
     tmp = []
     for i in range(n):
@@ -17,6 +19,7 @@ def randVector(n, flag):
 x = randVector(100, False)
 y = randVector(100, False)
 
+# Writing [x, y] points to the *.txt
 f = open("values.txt", "w+")
 cattegory = []
 for i in range(len(x)):
@@ -30,8 +33,3 @@ for i in range(len(x)):
     else:
         f.write(str(x[i]) + " " + str(y[i]) + " " + str(cattegory[i]))
 f.close()
-
-# plt.xlim(-5, 5)
-# plt.ylim(-5, 5)
-# plt.plot(x, y, 'o', x, y, '-r')
-# plt.show()
