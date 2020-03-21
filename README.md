@@ -11,4 +11,6 @@
 5. Plot everything on graph.
 ## Additional info:
 Our professor told us to save weights to a *value.txt* file and plot the graph three times:
-1. Before training:[alt text](https://github.com/Krolag/IDA_Homework_AI/blob/master/plots/1.png?raw=true)
+1. Before training: ![alt text](https://github.com/Krolag/IDA_Homework_AI/blob/master/plots/1.png?raw=true)
+2. In the middle of training: ![alt text](https://github.com/Krolag/IDA_Homework_AI/blob/master/plots/2.png?raw=true)
+3. After training: ![alt text](https://github.com/Krolag/IDA_Homework_AI/blob/master/plots/3.png?raw=true)
